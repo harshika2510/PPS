@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main ()
+int t,a,c=0;
+scanf("%d",&a);
+while (a>0)
+{t=a%10;
+c=c*10+t;
+a=a/10;}
+return 0;
+}
